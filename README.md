@@ -1,6 +1,8 @@
 ## IIDXTicker
  [Download available here](https://github.com/Ghyakima/IIDXTicker/releases)
-* Edit "COM" in `Ticker.json` before using this program 
+* Edit "COM" in `Ticker.json` before using this program
+
+**IIDXTicker requires administrator privileges!**
 
 ## Arduino
 * Download and install:
