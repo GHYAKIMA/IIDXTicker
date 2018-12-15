@@ -1,0 +1,45 @@
+{
+	"Ticker": {
+		"debug": "false",
+		"COM": "COM1",
+		"baud": 115200
+		},
+
+	"Titles": [
+	{
+		"windowTitle": "beatmania IIDX 25 CANNON BALLERS",
+		"moduleName": "bm2dx.dll",
+		"tickerAddress": 0x24AB7A0	
+		},
+		
+	{
+		"windowTitle": "beatmania IIDX 24 SINOBUZ",
+		"moduleName": "bm2dx.dll",
+		"tickerAddress": 0x16A9D70	
+		},
+		
+	{
+		"windowTitle": "beatmania IIDX 23 copula",
+		"moduleName": "bm2dx.dll",
+		"tickerAddress": 0x1422160	
+		},
+		
+	{
+		"windowTitle": "beatmania IIDX 22 PENDUAL",
+		"moduleName": "bm2dx.dll",
+		"tickerAddress": 0x143AE30	
+		},
+		
+	{
+		"windowTitle": "beatmania IIDX 21 SPADA",
+		"moduleName": "bm2dx.dll",
+		"tickerAddress": 0x141B130	
+		},
+		
+	{
+		"windowTitle": "beatmania IIDX 20 TRICORO",
+		"moduleName": "bm2dx.dll",
+		"tickerAddress": 0x7CAD0	
+		}	
+	]		
+}
