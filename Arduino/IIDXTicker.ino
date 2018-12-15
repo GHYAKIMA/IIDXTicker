@@ -38,7 +38,7 @@ void loop() {
     if (Serial.available() > 0) {
       // IIDXTicker is running...
       Serial.readBytes(_receivedBytes, 9);
-      MAX.displayZoneText(0, (char*)_receivedBytes, PA_CENTER, 0, 0, PA_PRINT, PA_NO_EFFECT);
+      MAX.displayText((char*)_receivedBytes, PA_CENTER, 0, 0, PA_PRINT, PA_NO_EFFECT);
     } else {
       // Clear buffer
       memset(_receivedBytes, 0, sizeof(_receivedBytes));
